@@ -1,5 +1,9 @@
 #include "Milk_product.hpp"
 
-bool Milk_product::if_eco_friendly() {
+Milk_product::Milk_product(bool package) : Product(){
+    this->package = package;
+}
+
+bool Milk_product::if_eco_friendly(){
     return package;
 }
